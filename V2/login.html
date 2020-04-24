@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Login V2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="../CSSPaginaDeLogin/main.css">
+<!--===============================================================================================-->
+<!-- Refazer os links com os itens salvo na pasta imagem-->
+</head>
+<body>
+  
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100">
+        <div class="login100-form validate-form">
+          <span class="login100-form-title p-b-26">
+            Gerenciamento de Startups
+            
+          </span>
+
+          <h1></h1>
+            <p>Por favor entre com seu login/email e senha abaixo.</p>
+
+            <div id="infoMessage" style="margin-bottom: 50px"></div>
+
+            <!-- Envia as informações do formulario para o link do ACTION-->
+            <form action="" method="post" accept-charset="utf-8">
+              
+              <!--Criar a validação-->
+              <label for="identity">Login/Email:</label>              
+                <div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+                  <input type="text" name="identity" value="" id="identity" class="input100"  />
+                </div>
+
+              <label for="password">Senha:</label>              
+                <div class="wrap-input100 validate-input" data-validate="Enter password">
+                  <input type="password" name="password" value="" id="password" class="input100"  />
+                </div>
+
+              <p></p>
+
+              <div class="container-login100-form-btn">
+                <div class="wrap-login100-form-btn">
+                  <div class="login100-form-bgbtn"></div>
+                  <a class="login100-form-btn" href="inicio.html">Login</a>
+                  <!--<button class="login100-form-btn" type="submit"> Login</button>-->
+                </div>
+              </div>
+              <p></p>
+
+            </form>
+            <!--Criar Link de esqueci senha-->
+            <p><a href="forgot_password">Esqueceu sua senha?</a></p>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
